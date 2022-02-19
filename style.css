@@ -23,6 +23,8 @@ body {
   border: 2px solid black;
 }
 #perdeu {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   position: absolute;
   right: 0;

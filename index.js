@@ -21,11 +21,18 @@ square.forEach(elemento => {
       texto.innerHTML = "VOCÊ GANHOU";
       setTimeout(() => {
         square.forEach(elemento => {
+          elemento.style.backgroundColor = "rgb(0, 245, 0)";
+          currentTry = 0;
+        });
+      }, 1000);
+      setTimeout(() => {
+        square.forEach(elemento => {
           elemento.style.backgroundColor = "blue";
           texto.innerHTML = "";
           currentTry = 0;
         });
-      }, 1000);
+      }, 2000);
+      
     } else if (
       square[2].style.backgroundColor == "aqua" &&
       currentTry == chances - 1
@@ -33,11 +40,17 @@ square.forEach(elemento => {
       texto.innerHTML = "VOCÊ PERDEU";
       setTimeout(() => {
         square.forEach(elemento => {
+          elemento.style.backgroundColor = "red";
+          currentTry = 0;
+        });
+      }, 1000);
+      setTimeout(() => {
+        square.forEach(elemento => {
           elemento.style.backgroundColor = "blue";
           texto.innerHTML = "";
           currentTry = 0;
         });
-      }, 1000);
+      }, 2000);
     } else if (
       square[1].style.backgroundColor == "aqua" &&
       currentTry == chances - 1
@@ -45,11 +58,17 @@ square.forEach(elemento => {
       texto.innerHTML = "VOCÊ PERDEU";
       setTimeout(() => {
         square.forEach(elemento => {
+          elemento.style.backgroundColor = "red";
+          currentTry = 0;
+        });
+      }, 1000);
+      setTimeout(() => {
+        square.forEach(elemento => {
           elemento.style.backgroundColor = "blue";
           texto.innerHTML = "";
           currentTry = 0;
         });
-      }, 1000);
+      }, 2000);
     } else if (
       square[4].style.backgroundColor == "aqua" &&
       currentTry == chances - 1
@@ -57,11 +76,17 @@ square.forEach(elemento => {
       texto.innerHTML = "VOCÊ PERDEU";
       setTimeout(() => {
         square.forEach(elemento => {
+          elemento.style.backgroundColor = "red";
+          currentTry = 0;
+        });
+      }, 1000);
+      setTimeout(() => {
+        square.forEach(elemento => {
           elemento.style.backgroundColor = "blue";
           texto.innerHTML = "";
           currentTry = 0;
         });
-      }, 1000);
+      }, 2000);
     } else if (
       square[5].style.backgroundColor == "aqua" &&
       currentTry == chances - 1
@@ -69,11 +94,17 @@ square.forEach(elemento => {
       texto.innerHTML = "VOCÊ PERDEU";
       setTimeout(() => {
         square.forEach(elemento => {
+          elemento.style.backgroundColor = "red";
+          currentTry = 0;
+        });
+      }, 1000);
+      setTimeout(() => {
+        square.forEach(elemento => {
           elemento.style.backgroundColor = "blue";
           texto.innerHTML = "";
           currentTry = 0;
         });
-      }, 1000);
+      }, 2000);
     }
 
     currentTry += 1;
