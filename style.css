@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(242, 242, 242);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.grid {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  gap: 2px;
+}
+.sqr {
+  background-color: blue;
+  transition-duration: 500ms;
+  border: 2px solid black;
+}
+#perdeu {
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+#but {
+  position: absolute;
+  bottom: 25px;
+}
