@@ -1,3 +1,4 @@
+//OLA
 const square = document.querySelectorAll(".sqr");
 const texto = document.getElementById("perdeu");
 const but = document.getElementById("but");
